@@ -85,6 +85,7 @@
   }
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -238,6 +239,7 @@ sup {
   top: -0.5em;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
