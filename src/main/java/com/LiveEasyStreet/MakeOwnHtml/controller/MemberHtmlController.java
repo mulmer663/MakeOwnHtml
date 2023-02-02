@@ -13,10 +13,10 @@ public class MemberHtmlController {
         return "member/dae_hyuk";
     }
 
-//    @GetMapping("/member/jung_won")
-//    public String html_2() {
-//        return "member/jung_won";
-//    }
+    @GetMapping("/member/jung_won")
+    public String html_2() {
+        return "member/jung_won";
+    }
 //
 //    @GetMapping("/member/chan_sol")
 //    public String html_3() {
