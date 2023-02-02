@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+  <title>HomePage</title>
+</head>
+<body>
+
+<div class="container">
+
+  <div th:replace="~{fragments/bodyHeader}"></div>
+  <br>
+
+  <div class="jumbotron">
+    <br>
+    <h1 class="fw-bold">Make Own HTML</h1>
+    <p>
+      <a href="/member/dae_hyuk" class="btn btn-lg btn-success">대혁 페이지</a>
+      <a href="/member/jung_won" class="btn btn-lg btn-success">정원 페이지</a>
+    </p>
+    <p>
+      <a href="/member/tae_kyoung" class="btn btn-lg btn-dark">태경 페이지</a>
+      <a href="/member/chan_sol" class="btn btn-lg btn-dark">찬솔 페이지</a>
+    </p>
+    <p>
+      <a href="/member/wong_yoon" class="btn btn-lg btn-info">원균 페이지</a>
+      <a href="/member/yu_mi" class="btn btn-lg btn-info">유미 페이지</a>
+    </p>
+    <p>
+      <a href="/member/ha_yeong" class="btn btn-lg btn-primary">하영 페이지</a>
+      <a href="/member/ye_rim" class="btn btn-lg btn-primary">예림 페이지</a>
+    </p>
+    <br>
+  </div>
+
+  <br>
+  <div th:replace="~{fragments/footer}"></div>
+
+</div> <!-- container -->
+
+</body>
+</html>
