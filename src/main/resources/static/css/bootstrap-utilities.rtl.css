@@ -1920,6 +1920,7 @@
   background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
+/*noinspection CssUnresolvedCustomProperty*/
 .bg-body-emphasis {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-emphasis-bg-rgb), var(--bs-bg-opacity)) !important;
