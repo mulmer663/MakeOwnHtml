@@ -28,9 +28,9 @@ public class MemberHtmlController {
         return "member/Yumi";
     }
 
-    @GetMapping("/member/dae_hyuk")
+    @GetMapping("/member/tae_kyoung")
     public String html_6() {
-        return "member/dae_hyuk";
+        return "member/tk108_1";
     }
 
     @GetMapping("/member/ha_yeong")
