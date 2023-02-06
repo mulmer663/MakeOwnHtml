@@ -17,34 +17,29 @@ public class MemberHtmlController {
     public String html_2() {
         return "member/jung_won";
     }
-//
-//    @GetMapping("/member/chan_sol")
-//    public String html_3() {
-//        return "member/chan_sol";
-//    }
-//
-//    @GetMapping("/member/wong_yoon")
-//    public String html_4() {
-//        return "member/wong_yoon";
-//    }
-//
-//    @GetMapping("/member/yu_mi")
-//    public String html_5() {
-//        return "member/yu_mi";
-//    }
-//
-//    @GetMapping("/member/dae_hyuk")
-//    public String html_6() {
-//        return "member/dae_hyuk";
-//    }
-//
-//    @GetMapping("/member/ha_yeong")
-//    public String html_7() {
-//        return "member/ha_yeong";
-//    }
-//
-//    @GetMapping("/member/ye_rim")
-//    public String html_8() {
-//        return "member/ye_rim";
-//    }
+
+    @GetMapping("/member/won_gyoon")
+    public String html_4() {
+        return "member/sinwongyoon";
+    }
+
+    @GetMapping("/member/yu_mi")
+    public String html_5() {
+        return "member/Yumi";
+    }
+
+    @GetMapping("/member/tae_kyoung")
+    public String html_6() {
+        return "member/tk108_1";
+    }
+
+    @GetMapping("/member/ha_yeong")
+    public String html_7() {
+        return "member/hayeong";
+    }
+
+    @GetMapping("/member/ye_rim")
+    public String html_8() {
+        return "member/yerim";
+    }
 }
